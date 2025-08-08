@@ -270,8 +270,9 @@
         }
 
         .card {
-            width: 220px;
+            width: 100%;
             height: 390px;
+            min-width: 0;
         }
 
         .profile-pic img {
@@ -285,8 +286,8 @@
             padding: 25px 5px;
         }
 
-        .sobre {
-            padding: 20px 5px;
+        .sobre, .projetos-container {
+            padding: 0 5px;
             margin: 20px 5px;
         }
 
@@ -294,12 +295,12 @@
             flex-direction: column;
             align-items: center;
             gap: 20px;
-            padding: 20px 5px;
+            padding: 0;
         }
 
         .card {
-            width: 95vw;
-            max-width: 350px;
+            width: 100%;
+            max-width: 100%;
             height: auto;
             min-height: 320px;
             padding: 10px;
@@ -331,9 +332,11 @@
         .card h3 {
             font-size: 18px;
         }
+
         .card p {
             font-size: 14px;
         }
+
         footer {
             font-size: 13px;
             padding: 10px;
