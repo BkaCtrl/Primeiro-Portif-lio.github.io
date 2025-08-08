@@ -1,0 +1,196 @@
+main{
+    font-family:Arial;
+    color:#504e4e;
+}
+
+span{
+    font-weight:bold;
+    color:#ed7208;
+}
+
+.missao-valores{
+    display: flex;
+    margin: 20px 20px;
+    justify-content: space-around;
+    border: 4px;
+    font-size: 20px;
+}
+.valores{
+    padding:20PX;
+    text-align:center;
+    font-size: 18px;
+}
+.missao-valores div{
+    width: 300px;
+    background-color:#ffbe86;
+    color:#292929;
+    border-radius:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 8px  #ed7208;
+}
+.missao-valores h3{
+    padding-top:15px;
+    color: #e95500;
+}
+.logo-feirao img{
+    width:150px;
+    margin-right:15px;
+    margin-bottom:25px;
+}
+
+.logo-feirao{
+    display: flex;
+    margin:20px auto;
+    width:60%;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+}
+
+.texto{
+    font-size:20px;
+    line-height:35px;
+    text-align: justify;
+    margin-bottom:15px; 
+    
+}
+
+.texto-logo h1{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size:105px;
+    line-height:80px;
+    color: #ed7208;
+}
+.texto-logo h2{
+    font-weight: 300;
+    margin-top:-12px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.lar h1{
+    margin:20px 0;
+}
+
+.lar-img{
+    width:50%;
+    display: flex;
+    margin:60px auto 20px auto;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+}
+.reunião{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fdcf00 ;
+    padding: 10px;
+    border-radius: 0 0 12px 12px;
+}
+.botao-link{
+    background-color: #fdcf00 ;
+    width:100%;
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+    padding: 12px 5px;
+    margin-top: 15px;
+}
+
+.botao-link:hover{
+    background-color:  #ff871e;
+}
+
+
+.botao-link a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(80, 78, 78)
+}
+
+.reunião div{
+    width: 33%;
+}
+
+.reunião img{
+    width: 100%;
+    justify-content: space-evenly;
+    border: 20px 20px;
+    
+    
+}
+.texto-empreender{
+    display: flex;
+    font-size: 20px;
+    margin: 40px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase-empreender{
+    width:40%;
+    font-size:35px;
+}
+
+.texto-frase{
+    font-size:19px;
+    width:60%;
+    background-color: #ffe15d;
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 8px 8px 2px #ed7208;
+}
+.texto-frase h3{
+    color:#e95500;
+    margin-bottom: 10px;
+}
+
+.texto-frase p{
+    font-style: italic;
+}
+
+.frase-empreender p{
+    margin-bottom:-15px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 46px;
+    font-weight: 350;
+}
+
+.frase-empreender span{
+    font-family: "pacifico", cursive;
+    color:#fdcf00 ; 
+    font-size: 50px; 
+   
+}
+
+.historia-lar{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.historia-lar h3{
+color: #ed7208;
+margin-bottom:20px;
+text-decoration: underline;
+}
+
+.img-fundador{
+    display: flex;
+}
+
+.img-fundador img{
+    width: 500px ;
+}
+
+.img-fundador figcaption{
+    text-align: center;
+    font-size: 14px;
+    width: 80%;
+    margin: 0px auto;
+    font-style: italic;
+}
+
+.historia-lar h3:last-of-type{
+    margin-top: 40px;
+}

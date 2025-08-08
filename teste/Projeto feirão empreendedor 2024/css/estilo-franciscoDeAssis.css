@@ -1,0 +1,236 @@
+
+.história h1 {
+    text-align: left;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ed7208;
+    margin-top: 80px;
+}
+.história h2 {
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80,78,78);
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.história p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80,78,78);
+    padding-bottom: 15px;
+}
+.casa-francisco img {
+    width: 45%;
+}
+.casa-francisco {
+    display:flex;
+    margin: 20px 0px;
+}
+.casa-francisco p {
+    padding-right: 30px;
+    width: 55%;
+}
+
+.equipe{
+    margin: 30px 0px;
+}
+.equipe img {
+    width: 100%;
+}
+.equipe figcaption {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-top: 6px;
+    color: rgb(80,78,78);
+}
+.contatos {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: solid 2px #cacaca;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    margin-top: 20px;
+}
+.contatos h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #ed7208;
+    width: 180px;
+    border: solid #ed7208;
+    border-radius: 10px;
+}
+.contatos li {
+    text-align: justify;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.contatos a {
+    color:#df7f2b;
+}
+.informacoes-div h2{
+   margin-left: 18px;
+   margin-bottom: 40px;
+}
+.unidade h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ed7208;
+    padding-bottom: 70px;
+}
+.unidade {
+    border-bottom: solid 2px #cacaca;
+    border-top: solid 2px #cacaca;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-top: 60px;
+}
+.publico {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 25px;
+}
+.publico h4{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.publico p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    color: rgb(92, 90, 90);
+}
+.atende {
+    border: 2px solid #fcfcfc;
+    border-radius: 10px;
+    width: 160px;
+    height: 100px;
+    box-shadow: 1px 0 15px #df7f2b;
+    background-color: #fcfcfc;
+    color:#000;
+    margin-top: 30px;
+}
+.parceria-com {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ed7208;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+.parceria {
+    border-top: solid 2px #cacaca;
+    margin-top: 30px;
+}
+.imagem {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+} 
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imagem div{
+    width: 15%;
+    height: 15vh;
+}
+.cursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+.cursos h5 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ed7208;
+    width: 100%;
+}
+.cursos h4 {
+    text-align: center;
+    color:#ed7208;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    border: solid #cacaca;
+    border-radius: 30px;
+}
+.imagens-feirao div {
+    width: 30%;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.imagens-feirao img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.imagens-feirao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+span {
+    color: #ed7208;
+    font-weight: bold;
+}
+.habilidades {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    overflow: scroll hidden;
+}
+
+.fotos-casa img{
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.fotos-casa {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    margin: 0px 4px;
+}
+
+.fotos-casa figcaption{
+    font-style: italic;
+    background-color: #cacaca;
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: -4px;
+}
+
+.fotos-casa figure {
+    margin-bottom: 50px;
+}
+

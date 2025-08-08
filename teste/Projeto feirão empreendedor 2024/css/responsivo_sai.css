@@ -1,0 +1,711 @@
+/*CABEÇALHO*/
+
+@media (max-width: 768px){
+    .limita{
+        width: 100%;
+    }
+
+    .cabecalho nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .cabecalho nav a{
+        background-color: transparent;
+        color: rgb(80, 78, 78);
+        font-size: 14px;
+        padding: 3px;
+        background-color: #ed7208;
+        color: #fff;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .cabecalho{
+        display: block;
+        text-align: center;
+        background-color: #ffcfa57a;
+        padding: 20px;
+    }
+
+    .logo-feirao img{
+        width: 60px;
+    }
+
+    .logo-feirao h1{
+        font-size: 36px;
+    }
+
+    .logo-feirao h2{
+        font-size: 22px;
+        margin-top: -26px;
+        margin-bottom: -26px;
+    }
+
+    .texto{
+        font-size: 14px;
+        width: 90%;
+        margin: 0px auto;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .frase-empreender p, .frase-empreender span{
+        font-size: 20px;
+        margin-bottom: -4px;
+    }
+
+    .texto-frase{
+        font-size: 14px;
+    }
+
+    .botao-link a{
+        color:  #fff;
+        font-size: 16px;
+    }
+
+    .missao-valores p{
+        font-size: 14px;
+    }
+
+    .missao-valores h3{
+        margin-bottom: -8px;
+        font-size: 16px;
+    }
+
+    .img-fundador{
+        display: block;
+    }
+
+    .img-fundador img{
+        width: 100%;
+    }
+
+    .historia-lar h3{
+        text-align: center;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .img-fundador figcaption{
+        margin-bottom: 20px;
+    }
+
+    .rodape iframe, .objetivo-site{
+        display: none;
+    }
+
+    .logo-rodape{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: -100px;
+        display: block;
+    }
+
+    .logo-rodape img{
+        width: 110px;
+    }
+
+    .logo-rodape img:last-of-type{
+        width: 80px;
+        filter: grayscale();
+    }
+
+    .posicionamento-rodape{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .divulgacao h4{
+        text-align: center;
+        line-height: 18px;
+        margin-bottom: -6px;
+    }
+
+    .redes{
+        padding: 4px;
+        width: 60%;
+        margin: 10px auto 20px auto;
+    }
+
+    .redes img{
+        width: 20px;
+    }
+
+    .divulgacao{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .onde-estamos h4, .onde-estamos p{
+        text-align: center;
+    }
+
+    .onde-estamos{
+        width: 80%;
+        margin: 0px auto;
+    }
+    
+    .endereco img{
+        display: none;
+    }
+
+    .casa-contato{
+        display: none; 
+    }
+
+    .rodape {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .copy{
+        width: 100%;
+    }
+
+    .copy p{
+        font-size: 12px;
+    }
+
+    /*TAMIRES - CASA FRANCISCO */
+
+    .casa-francisco{
+        display: block;
+    }
+
+    .casa-francisco img{
+        width: 100%;
+    }
+
+    .contatos div{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .contatos h2{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .contatos li{
+        font-size: 14px;
+        margin-bottom: -10px;
+    }
+
+    .contatos{
+        display: block;
+    }
+
+    .história h1{
+        font-size: 24px;
+        width: 90%;
+        margin: 200px auto 0px auto;
+    }
+
+    .história h2{
+        font-size: 20px;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .história p{
+        font-size: 16px;
+        width: 90%;
+        margin: 20px auto 0px auto;
+        padding: 0px;
+    }
+
+    .unidade{
+        width: 90%;
+    }
+
+    .publico{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cursos h4{
+        padding: 10px;
+    }
+
+    .imagem{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .imagem div{
+        width: 30%;
+        height: 30vh;  
+    }
+
+    .imagem img{
+        object-fit: contain;
+    }
+
+    .imagens-feirao img{
+        object-fit: cover;
+    }
+
+    .cursos h5{
+        font-size: 16px;
+    }
+
+    .equipe img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .equipe figcaption{
+        font-weight: bold;
+        font-size: 12px;
+        background-color: #fff;
+        border-radius: 0px 0px 10px 10px;
+        padding: 6px;
+    }
+
+
+
+    /*EMPREENDEDORES - BRENNO*/
+
+    .img-fundo{
+        display: none;
+    }
+
+    .motivacao{
+        margin-top: 170px;
+    }
+
+    .motivacao p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .motivacao h2{
+        width: 90%;
+        font-size: 12px;
+        margin: 10px auto -50px auto;
+        padding: 8px 12px;
+        border-radius: 4px;
+        box-shadow: 6px 6px 6px;
+    }
+
+    .Empreendedores{
+        width: 90%;
+    }
+
+    .cardEmpreendedor{
+        border-radius: 6px;
+        width: 30%;
+        box-shadow: 6px 6px 10px rgb(80, 78, 78);
+        margin-bottom: 10px;
+    }
+
+    .cardEmpreendedor a:hover{
+        border-radius: 0px 0px 6px 6px;
+    }
+    
+    .imgEmpreendedor img{
+        height: 100%;
+        border-radius: 6px 6px 0px 0px;
+    }
+    
+    .contato{
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    /*GABRIEL - DESENVOLVEDORES*/
+
+    .title2{
+        width: 90%;
+        margin: 180px auto 0px auto;
+        font-size: 24px;
+    }
+
+    .apresentacao{
+        width: 90%;
+        margin: 20px auto 0px auto;
+    }
+
+    .title2 h1{
+        font-size: 24px;
+    }
+
+    .apresentacao p, .apresentacao li{
+        font-size: 16px;
+    }
+
+    .apresentacao li{
+        text-align: left;
+    }
+
+    .equipe{
+        display: block;
+        background-color: #ffb78e;
+        border-radius: 10px;
+        width: 90%;
+        margin: 20px auto;
+        box-shadow: #ed7208 6px 6px;
+    }
+
+    .equipe div{
+        width: 100%;
+        background-color: transparent;
+        
+    }
+
+    .imagem img{
+        width: 95%;
+        margin: 10px auto;
+        box-shadow: 0px 0px 0px;
+        border-radius: 10px;
+    }
+
+    .grupo .texto:nth-child(even){
+        box-shadow: 0px 0px 0px;
+        margin-left: 0px;
+        border-radius: 0px;
+        width: 100%;
+    }
+    
+    .grupo .texto:nth-child(odd){
+        border-radius: 0px; 
+        box-shadow: 0px 0px 0px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    main .title2:nth-last-of-type(2){
+        margin-top: 50px;
+    }
+}
+
+
+/*Smartphones extra pequenos (vertical)*/
+@media (max-width: 576px){
+
+    .cabecalho img{
+        width: 100px;
+    }
+
+    .logo-feirao{
+        margin-top: 150px;
+    }
+
+    .reunião{
+        display: none;
+    }
+
+    .botao-link{
+        width: 60%;
+        margin: 0px auto;
+        border-radius: 10px;
+        box-shadow: inset  #ffb78e 0px 0px 6px 6px;
+        background-color: #ed7208;
+    }
+
+    .missao-valores {
+        display: block;
+    }
+
+    .missao-valores div{
+        width: 80%;
+        margin: 0px auto 10px auto;
+        box-shadow: 4px 4px #ed7208;
+    }
+
+    /*TAMIRES - CASA*/
+
+
+    .imagens-feirao div{
+        height: 120px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .cursos h4{
+        margin: 10px auto;
+    }
+
+
+
+
+    /*BRENNO - EMPREENDEDORES*/
+
+    .cardEmpreendedor h3{
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    .cardEmpreendedor p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .imgEmpreendedor{
+        height: 150px;
+    }
+
+    .contato a{
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .contato img{
+       width: 10px;
+    }
+}
+
+
+/*Smartphones pequenos (horizontal)*/
+@media (min-width: 577px) and (max-width: 768px){
+    .logo-feirao{
+        margin-top: 200px;
+    }
+
+    .reunião{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .botao-link{
+        width: 90%;
+        margin: 0px auto;
+        background-color: #ed7208;
+    }
+
+    .missao-valores div{
+        width: 30%;
+        box-shadow: 4px 4px #ed7208;
+        justify-content: flex-start;
+    }
+
+    /*TAMIRES - CASA*/
+
+    .imagens-feirao div{
+        height: 160px;
+    }
+
+    /*BRENO - EMPREENDEDORES */
+
+    .motivacao{
+        margin-top: 200px;
+    }
+
+    .motivacao h2{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .cardEmpreendedor h3{
+        font-size: 18px;
+    }
+
+    .cardEmpreendedor p{
+        font-size: 14px;
+    }
+
+    .imgEmpreendedor{
+        height: 230px;
+    }
+
+    .contato a{
+        font-size: 12px;
+    }
+    
+    .contato img{
+        width: 12px;
+    }
+
+}
+
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 992px){
+    .limita{
+        max-width: 90%;
+    }
+
+    .cabecalho nav a{
+        font-size: 12px;
+    }
+
+    .cabecalho img{
+        width: 120px;
+    }
+
+    .frase-empreender p, .frase-empreender span{
+        font-size: 30px;
+        margin-bottom: 0px; 
+    }
+
+    .missao-valores div{
+        width: 30%;
+        justify-content: flex-start;
+    }
+
+    .img-fundador{
+        display: block;
+    }
+
+    .img-fundador img{
+        width: 100%;
+    }
+
+    .img-fundador figcaption{
+        margin-bottom: 20px;
+    }
+
+    .logo-rodape img{
+        width: 120px;
+    }
+
+    .posicionamento-rodape{
+        margin-bottom: -50px;
+    }
+
+    .logo-rodape img:last-of-type{
+        width: 80px;
+    }
+
+    .objetivo-site{
+        display: none;
+    }
+
+    .onde-estamos iframe{
+        display: none;
+    }
+
+    .casa-contato{
+        display: none;
+    }
+
+    /*TAMIRES - CASA*/
+
+    .contatos{
+        flex-wrap: wrap;
+    }
+
+    .imagem{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .imagem div{
+        width: 200px;
+        height: 200px;
+    }
+
+    .imagem img{
+        object-fit: contain;
+    }
+
+    /*BRENNO - EMPREENDEDORES */
+
+    .texto h1{
+        font-size: 48px;
+    }
+
+    .imgEmpreendedor{
+        height: 300px;
+    }
+
+    .imgEmpreendedor img{
+        height: 100%;
+    }
+
+    /*GABRIEL - EQUIPE*/
+    
+    .equipe div{
+        width: 50%;
+    }
+
+    .imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagem img{
+        width: 100%;
+    }
+
+    .texto{
+        font-size: 14px;
+    }
+
+}
+
+/*Notebooks e PCs*/
+@media (min-width: 993px) and (max-width: 1200px){
+    .limita{
+        max-width: 90%;
+    }
+
+    .missao-valores div{
+        width: 30%;
+        justify-content: start;
+    }
+
+    .img-fundador figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .imagem div{
+        width: 200px;
+        height: 200px;
+    }
+
+    .imagem img{
+        object-fit: contain;
+    }
+
+    
+
+    /*GABRIEL - EQUIPE */
+    
+    .imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+} 
+
+@media (min-width: 1201px){
+    .imagem{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .imagem div{
+        width: 200px;
+        height: 200px;
+    }
+
+    .imagem img{
+        object-fit: contain;
+    }
+}
