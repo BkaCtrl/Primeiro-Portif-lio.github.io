@@ -142,44 +142,34 @@
             
             
         /* Rodapé */
-           footer {
-                flex-direction: column;
-                text-align: center;
-                padding: 10px;
+           .posicionamento-rodape { 
+                flex-direction: column; 
+                align-items: center; 
+                text-align: center; 
             } 
-
-            .posicionamento-rodape {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .logo-rodape,
-            .divulgacao,
-            .onde-estamos {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-
-            .divulgacao {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 15px; /* espaço entre elementos */
-            }
-
-            .divulgacao img,
-            .divulgacao svg {
-                margin: 0 auto;
-            }
-
-            .onde-estamos p {
-                margin: 5px 0;
-            }
-
-            .divulgacao,
-            .onde-estamos {
-                min-height: auto;
+            
+            .logo-rodape, .divulgacao, .onde-estamos { 
+                width: 100%; 
+                margin-bottom: 20px; 
+            } 
+            
+            .divulgacao { 
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                gap: 15px; /* espaço entre elementos */ 
+            } 
+            
+            .divulgacao img, .divulgacao svg { 
+                margin: 0 auto; 
+            } 
+            
+            .onde-estamos p { 
+                margin: 5px 0; 
+            } 
+            
+            .divulgacao, .onde-estamos { 
+                min-height: auto; 
             }
         /* Fim-Rodapé */
     }
@@ -241,4 +231,99 @@
             }
         /* Fim-Desenvolvedores */
     }
-/* Fim-Ajuste Celulares
+/* Fim-Ajuste Celulares */
+
+
+/* Ajustes a parte */
+    @media (max-width: 1024px) {
+        .img-fundador {
+            flex-direction: column; /* empilha os elementos */
+            align-items: center;
+            text-align: justify; /* deixa o texto bonito */
+        }
+
+        .img-fundador h2 {
+            order: 0; /* título no topo */
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .img-fundador img {
+            order: 1; /* imagem depois do título */
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .img-fundador p {
+            order: 2; /* texto depois da imagem */
+            width: 100%;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            background-color: #666; /* Mantém sua cor original */
+            gap: 20px; /* Espaço entre as caixas */
+        }
+
+        /* Cada bloco separado do rodapé */
+        .rodape-bloco {
+            width: 100%;
+            max-width: 500px;
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        /* Logo centralizada */
+        .rodape-logo img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Texto de informações */
+        .rodape-info {
+            font-size: 14px;
+            line-height: 1.4;
+            color: #fff;
+        }
+
+        /* Redes sociais centralizadas */
+        .rodape-redes {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* Objetivo do site */
+        .rodape-objetivo {
+            background-color: #ffb366;
+            color: #000;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        /* Endereço */
+        .rodape-endereco {
+            font-size: 14px;
+            line-height: 1.4;
+            color: #fff;
+        }
+
+        /* Mapa ocupa largura total */
+        .rodape-mapa iframe {
+            width: 100%;
+            height: 250px;
+            border-radius: 8px;
+        }
+    }
+/* Fim-Ajustes a parte */
