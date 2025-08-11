@@ -1,14 +1,16 @@
 .img-fundo{
     background-image: url("../ARTES PARA O FEIRÃO EMPREENDEDOR/empreendedores/Fundo2Cartoon.png");
-    background-size: cover;
+    background-size: cover; /* mantém proporção sem cortar */
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
-    height: 70vh; 
+    height: auto; /* deixa a altura ajustar conforme a imagem */
+    min-height: 60vh; /* garante que não fique muito baixa */
 }
 
 .opacidade{
     background-color: black;
-    height: 70vh;
+    height: 80vh;
     opacity: 60%;
 }
 

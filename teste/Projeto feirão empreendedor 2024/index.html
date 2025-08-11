@@ -8,7 +8,163 @@
         <meta name="descriotion" content="Site destinado ao Feirão Empreendedor do Lar Fabiano de Cristo, desenvolvido por uma equipe de alunos de programação Web em parceria com a DEVMEDIA.">
         <link rel="stylesheet" href="css/estilo-cabecalho-rodape.css">
         <link rel="stylesheet" href="css/estilo-home.css">
-        <link rel="stylesheet" href="css/responsivo.css">
+        <link rel="stylesheet" href="css/responsivo_sai.css/* ===== RESPONSIVO ===== */
+
+/* Ajuste geral para telas menores que 1024px */
+@media (max-width: 1024px) {
+    .limita {
+        width: 95%;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho nav {
+        margin-top: 10px;
+    }
+
+    .cabecalho nav a {
+        display: inline-block;
+        margin: 5px;
+        padding: 10px;
+    }
+}
+
+/* Ajustes para tablets (até 768px) */
+@media (max-width: 768px) {
+
+    /* Página Home */
+    .logo-feirao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-logo h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .texto-empreender {
+        flex-direction: column;
+    }
+
+    .frase-empreender, .texto-frase {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .reunião {
+        flex-direction: column;
+    }
+
+    .reunião div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Empreendedores */
+    .cardEmpreendedor {
+        width: 45%;
+    }
+
+    /* Francisco de Assis */
+    .casa-francisco {
+        flex-direction: column;
+    }
+
+    .casa-francisco img, .casa-francisco p {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .publico {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .publico .atende {
+        width: 45%;
+    }
+
+    .imagem {
+        flex-wrap: wrap;
+    }
+
+    .imagem div {
+        width: 30%;
+        height: auto;
+    }
+
+    /* Desenvolvedores */
+    .equipe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem img {
+        width: 100%;
+    }
+
+    .grupo .texto:nth-child(even),
+    .grupo .texto:nth-child(odd) {
+        margin: 0;
+        border-radius: 12px;
+    }
+}
+
+/* Ajustes para celulares (até 480px) */
+@media (max-width: 480px) {
+
+    /* Home */
+    .texto-logo h1 {
+        font-size: 40px;
+    }
+
+    .texto-logo h2 {
+        font-size: 20px;
+    }
+
+    .missao-valores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .missao-valores div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* Empreendedores */
+    .cardEmpreendedor {
+        width: 90%;
+    }
+
+    .motivacao h2 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    /* Francisco de Assis */
+    .publico .atende {
+        width: 90%;
+    }
+
+    .imagem div {
+        width: 45%;
+    }
+
+    /* Desenvolvedores */
+    .texto {
+        font-size: 16px;
+        padding: 15px;
+    }
+}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
