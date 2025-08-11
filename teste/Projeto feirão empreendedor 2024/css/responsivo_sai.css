@@ -3,7 +3,14 @@
 /* Ajuste geral para telas menores que 1024px */
     @media (max-width: 1024px) {
         .limita {
-            width: 95%;
+            width: 100%;
+            padding: 0 15px;
+        }
+
+        .posicionamento-rodape {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
 
         header {
@@ -20,9 +27,10 @@
         }
 
         .cabecalho nav a {
-            display: inline-block;
-            margin: 5px;
-            padding: 10px;
+            display: block; /* força uma por linha */
+            margin: 8px auto;
+            padding: 10px 15px;
+            width: fit-content; /* centraliza no tamanho do texto */
         }
     }
 /* Fim - Ajuste geral */
@@ -32,39 +40,55 @@
     @media (max-width: 768px) {
 
         /* Página Home */
-        .logo-feirao {
-            flex-direction: column;
-            text-align: center;
-        }
+            .inicio-container {
+                flex-direction: column;
+                padding: 15px;
+            }
+            .inicio-container img {
+                max-width: 100%;
+                height: auto;
+            }
 
-        .texto-logo h1 {
-            font-size: 60px;
-            line-height: 60px;
-        }
+            .logo-feirao {
+                flex-direction: column;
+                text-align: center;
+            }
 
-        .texto-empreender {
-            flex-direction: column;
-        }
+            .texto-logo h1 {
+                font-size: 60px;
+                line-height: 60px;
+            }
 
-        .frase-empreender, .texto-frase {
-            width: 100%;
-            border-radius: 0;
-        }
+            .texto-empreender {
+                flex-direction: column;
+            }
 
-        .reunião {
-            flex-direction: column;
-        }
+            .frase-empreender, .texto-frase {
+                width: 100%;
+                border-radius: 0;
+            }
 
-        .reunião div {
-            width: 100%;
-            margin-bottom: 10px;
-        }
+            .reunião {
+                flex-direction: column;
+            }
+
+            .reunião div {
+                width: 100%;
+                margin-bottom: 10px;
+            }
         /* Fim-Página home */
 
 
         /* Empreendedores */
+            .imgEmpreendedor img {
+                height: auto;
+                object-fit: contain;
+            }
+
             .cardEmpreendedor {
-                width: 45%;
+                flex: 1 1 100%;
+                max-width: 100%;
+                width: 90%;
             }
         /* Fim-Empreendedores */
 
@@ -93,7 +117,7 @@
             }
 
             .imagem div {
-                width: 30%;
+                width: 100%;
                 height: auto;
             }
         /* Fim-Francisco de Assis */
@@ -115,9 +139,52 @@
                 border-radius: 12px;
             }
         /* Fim-Desenvolvedores */
+            
+            
+        /* Rodapé */
+           footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+            } 
+
+            .posicionamento-rodape {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .logo-rodape,
+            .divulgacao,
+            .onde-estamos {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .divulgacao {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px; /* espaço entre elementos */
+            }
+
+            .divulgacao img,
+            .divulgacao svg {
+                margin: 0 auto;
+            }
+
+            .onde-estamos p {
+                margin: 5px 0;
+            }
+
+            .divulgacao,
+            .onde-estamos {
+                min-height: auto;
+            }
+        /* Fim-Rodapé */
     }
 /* Fim-Ajustes para tablets (até 768px) */ 
- 
+
 
 /* Ajustes para celulares (até 480px) */
     @media (max-width: 480px) {
@@ -145,7 +212,8 @@
 
         /* Empreendedores */
             .cardEmpreendedor {
-                width: 90%;
+                flex: 1 1 100%;
+                max-width: 100%;
             }
 
             .motivacao h2 {
@@ -161,7 +229,7 @@
             }
 
             .imagem div {
-                width: 45%;
+                width: 100%;
             }
         /* Fim-Francisco de Assis */
 
